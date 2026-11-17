@@ -1,8 +1,3 @@
----
-title: "README"
-format: html
----
-
 # Texas A&M Center for Marine Aquaculture (CMAQ) Lab Protocols
 
 ## Genetics
