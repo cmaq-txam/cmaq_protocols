@@ -2,3 +2,4 @@
 
 ## Genetics
 - [Non-Lethal Sampling](genetics/nonlethal_sampling.md)
+- [Tissue Sampling](genetics/tissue_sampling.md)
