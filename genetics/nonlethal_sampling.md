@@ -30,7 +30,7 @@ First, determine the volume of anesthetic solution needed to treat the
 subject oysters. Consider the containers available, the number and size
 of oysters, and that the oysters are to be fully submerged in the
 solution. We often treat many oysters in a modest volume. We stock at
-densities as high as approximately 600 adult (70mm) oysters in 150L.
+densities as high as approximately 600 adult (70mm) oysters in 50L.
 
 The recipe of the anesthetic solution is:
 
@@ -59,8 +59,8 @@ with working seawater and place it at the lab bench.
 
 Pick up an oyster from the bin with anesthetic solution, letting any
 liquid drain from the oyster back into the bin. Using a cotton tipped
-microswab cut down to ~30mm, rub the cotton-end of the swab along the
-mantle on both the flat and cupped shell, and if possible, adductor
+microswab cut down to ~30mm, gently rub the cotton-end of the swab along
+the mantle on both the flat and cupped shell, and if possible, adductor
 muscle. Roll the swab while in contact with the soft tissue and ensure
 the swab gets covered in mucus. Drop the swab into a labeled 1.5mL
 microcentrifuge tube and close the lid. Place the oyster in the small
@@ -94,15 +94,15 @@ our experience, mortality from this process is rare.
   manual defrost settings. The manual defrost setting means the freezer
   will not go through freeze-thaw cycles. We suspect the quality of the
   DNA may degrade from thawing and re-freezing. For short term storage
-  (days to weeks), we store swabs in the fridge (°8C). Having the swabs
+  (days to weeks), we store swabs in the fridge (8°C). Having the swabs
   at room temperature on the benchtop is OK for a few hours, but we
-  recommend moving them to a fridge by the end of the day.
+  recommend moving them to the fridge as soon as possible.
 
 ### Cutting the swabs
 
-- MR, AS can you help here
-
-### Other notes to add?
+We use utility scissors to cut the microswabs so they will fit in a
+microcentrifuge tube. Place about 7-10 microswabs between the thumb and
+index/middle finger, and cut to desired length.
 
 # Materials
 
