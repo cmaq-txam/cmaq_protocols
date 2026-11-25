@@ -1,4 +1,5 @@
 # GT-seq Library Preparation
+
 Texas A&M Center for Marine Aquaculture
 
 **Originally created:** 2026-11-25\
@@ -266,8 +267,10 @@ Before sequencing, checking the quality of the library is necessary. We use an A
 
 EXAMPLE:
 
+```{=html}
 <img src="images/fragment_analyzer.png" width="400"
 alt="Example of Fragment Analzyer Peak" />
+```
 
 # Final Pooling for Sequencing
 
@@ -335,7 +338,7 @@ When quanting samples after extraction, PCR1, and PCR2, you can always quant eve
     b.  List of plate number and what column to quant:
 
 | **Plate \#** | **Column \#** |   | **Plate \#** | **Column \#** |   | **Plate \#** | **Column \#** |
-|:---------:|:---------:|:--:|:---------:|:---------:|:--:|:---------:|:---------:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | 1 | 1 |  | 9 | 9 |  | 17 | 7 |
 | 2 | 2 |  | 10 | 10 |  | 18 | 8 |
 | 3 | 3 |  | 11 | 1 |  | 19 | 9 |
@@ -344,14 +347,14 @@ When quanting samples after extraction, PCR1, and PCR2, you can always quant eve
 | 6 | 6 |  | 14 | 4 |  | 22 | 2 |
 | 7 | 7 |  | 15 | 5 |  | 23 | 3 |
 | 8 | 8 |  | 16 | 6 |  | 24 | 4 |
-        
+
 3.  Recommendation for setting up quant plates: Have each row be a different plate, with nulls in columns 9 and 10 and the standards in column 12. This way, 8 plates can be quanted at once.
 
 ## Gel Electrophoresis
 
 1.  Run all GT-seq gels with a 2% gel. 1.5% also works, but 2% is best for separating bands in GT-seq
 2.  Goal is to load \~100ng of each sample in a 2:3 dye/water mix
-    a.  Dye/water mix: \[(2ul of dye x \# of samples) + (3ul of water x \# of samples)\]
+    a.  Dye/water mix: $$(2ul of dye x \# of samples) + (3ul of water x \# of samples)$$
     b.  Add DNA/PCR product to 4ul of the dye/water mix. EXAMPLE: For sample with 60ng/ul, add 2ul to the dye/water
     c.  On the gel, load 5ul of the DNA in the dye/water
 3.  Load 2.5ul of a 100bp ladder
@@ -359,8 +362,10 @@ When quanting samples after extraction, PCR1, and PCR2, you can always quant eve
 
 EXAMPLE:
 
+```{=html}
 <img src="images/gel_example.png" width="400"
 alt="Example of PCR Gels" />
+```
 
 - Gel 1 = PCR1
   - If PCR1 worked, there should be 2 bands: 1 product band and 1 dimer band below the ladder. Nulls are labeled as "0". Primers add \~80-100bp to the original target size.
@@ -371,8 +376,8 @@ alt="Example of PCR Gels" />
 
 Here is a list of all the supplies we use during GT-seq library preparation with their product numbers and vendor.
 
-| **Product** | **Vendor** | **Product #** |
-|:---|:---:|:---:|
+| **Product** | **Vendor** | **Product \#** |
+|:---|:--:|:--:|
 | Half-skirt PCR Plates, 96-Well | VWR | 83007-374 |
 | Aluminum Foil Seals for PCR (96-Well Plates) | VWR | 60941-126 |
 | 96-Well Deep Well Microplates | VWR | 75870-792 |
