@@ -1,13 +1,8 @@
----
-title: "GT-seq Library Preparation"
-author: "Texas A&M Center for Marine Aquaculture"
-created: "2026-11-25"
-updated: "2026-11-25"
-format: gfm
----
+# GT-seq Library Preparation
+Texas A&M Center for Marine Aquaculture
 
-**Originally created:** {{< meta created >}}\
-**Last updated:** {{< meta updated >}}
+**Originally created:** 2026-11-25\
+**Last updated:** 2026-11-25
 
 # Purpose
 
@@ -39,32 +34,22 @@ Two different sets of primers will need to be prepared: a set of primers that ha
         ii. ***Note**: We use a spreadsheet that lists the primer name, plate, well, and volume to be added for each primer mix.*
 4.  Dilute primer pools to desired concentration for PCR
     a.  ***Note**: OPTIMIZATION does both b and c, while POST-OPTIMIZATION only does c. Also note that the dilution needed will change based on the species and DNA extraction being used (e.g., Oyster SNP: 20nM magbind, 60nM chelex; Oyster microhap: 40nM magbind, 80nM chelex; Red snapper: 20nM magbind, 80nM Chelex; Red Drum: 20nM magbind). Testing multiple concentrations is ideal during optimization rounds.*
-
     b.  Calculate the concentration of each individual primer in the primer mix:
-
-        EXAMPLE - 165 primers at 100uM, with 1ul of each added to the mix
-
-        C~1~V~1~=C~2~V~2~
-
-        (100uM)(1ul) = (C~2~)(165ul)
-
-        C~2~ = 0.6060M or 606nM
-
+        i.  EXAMPLE - 165 primers at 100uM, with 1ul of each added to the mix
+        ii. C₁V₁ = C₂V₂
+        iii. (100uM)(1ul) = (C₂)(165ul)
+        iv. C₂ = 0.6060M or 606nM
     c.  Use the nM concentration to dilute the primers for PCR
-
-        EXAMPLE - make 150ul of 80nM primer mix
-
-        C~1~V~1~=C~2~V~2~
-
-        (606nM)(V~1~) = (80nM)(150ul)
-
-        V~1~ = 19.8ul --\> Add 19.8ul of primer mix to 130.2ul of molecular-grade water
+        i.  EXAMPLE - make 150ul of 80nM primer mix
+        ii. C₁V₁ = C₂V₂
+        iii. (606nM)(V₁) = (80nM)(150ul)
+        iv. V₁ = 19.8ul → Add 19.8ul of primer mix to 130.2ul of molecular-grade water
 
 ## PCR2 i7 and i5 Primers
 
 1.  Resuspend IDT primers
     a.  Centrifuge primers then resuspend to a 100uM concentration in 1x TE buffer (stock solution). Similar to above, if primers come as 5nmol, add 50ul of 1x TE buffer
-2.  Dilute primers to 10uM concentration in \_\_\_
+2.  Dilute primers to 10uM concentration in
 3.  Make working solution plates
     a.  Aliquot 10-20ul to a new 96-well half-skirt plate
     b.  Store stock solution at -20°C and working solution at 4°C
@@ -281,7 +266,8 @@ Before sequencing, checking the quality of the library is necessary. We use an A
 
 EXAMPLE:
 
-![](genetics/images/fragment_analyzer.png){fig-align="center"}
+<img src="images/fragment_analyzer.png" width="400"
+alt="Example of Fragment Analzyer Peak" />
 
 # Final Pooling for Sequencing
 
@@ -314,7 +300,6 @@ For this quant kit, we use 4 standards (0x, 0.5x, 4x, and 10x) done in replicate
     d.  MM = total buffer + total enhancer
 2.  Set up plate:
     a.  Sample wells: 199ul MM + 1ul of sample
-
     b.  Standard wells: 190ul MM + 10ul of standard
 3.  Place on plate shaker for 5min at 90 rpm.
 4.  Using a SpectraMax M2 machine with the SolfMax Pro program, set sample concentrations to 200 and stardard concentrations to 0, 0.025, 0.2, and 0.5.
@@ -335,7 +320,6 @@ For this quant kit, we use 4 standards (0x, 0.5x, 4x, and 10x) done in replicate
 4.  Vortex tubes, centrifuge, and let sit at 24°C for 3min
 5.  Read quants on a Qubit™ 2.0 Fluorometer, using the *High Sensitivity dsDNA assay* option.
     a.  Standards should show up as a straight line on the graph, with points at 0 and \~500
-
     b.  Set *calculate stock calculation* to 2ul
 
 ## Quanting Tips
@@ -348,19 +332,19 @@ When quanting samples after extraction, PCR1, and PCR2, you can always quant eve
     c.  PCR2 plates = 10 samples per plate quanted (includes the PCR1 and PCR2 nulls)
 2.  Which columns should you quant? We have a system!
     a.  Match the column number to the plate (column 1 in plate 1, column 2 in plate 2, etc.). When you get to plate 11, go back to column 1 since H11 contains a null and we want 8 samples at a minimum.
-
     b.  List of plate number and what column to quant:
 
-        | **Plate \#** | **Column \#** |   | **Plate \#** | **Column \#** |   | **Plate \#** | **Column \#** |
-        |:---------:|:---------:|:--:|:---------:|:---------:|:--:|:---------:|:---------:|
-        | 1 | 1 |  | 9 | 9 |  | 17 | 7 |
-        | 2 | 2 |  | 10 | 10 |  | 18 | 8 |
-        | 3 | 3 |  | 11 | 1 |  | 19 | 9 |
-        | 4 | 4 |  | 12 | 2 |  | 20 | 10 |
-        | 5 | 5 |  | 13 | 3 |  | 21 | 1 |
-        | 6 | 6 |  | 14 | 4 |  | 22 | 2 |
-        | 7 | 7 |  | 15 | 5 |  | 23 | 3 |
-        | 8 | 8 |  | 16 | 6 |  | 24 | 4 |
+| **Plate \#** | **Column \#** |   | **Plate \#** | **Column \#** |   | **Plate \#** | **Column \#** |
+|:---------:|:---------:|:--:|:---------:|:---------:|:--:|:---------:|:---------:|
+| 1 | 1 |  | 9 | 9 |  | 17 | 7 |
+| 2 | 2 |  | 10 | 10 |  | 18 | 8 |
+| 3 | 3 |  | 11 | 1 |  | 19 | 9 |
+| 4 | 4 |  | 12 | 2 |  | 20 | 10 |
+| 5 | 5 |  | 13 | 3 |  | 21 | 1 |
+| 6 | 6 |  | 14 | 4 |  | 22 | 2 |
+| 7 | 7 |  | 15 | 5 |  | 23 | 3 |
+| 8 | 8 |  | 16 | 6 |  | 24 | 4 |
+        
 3.  Recommendation for setting up quant plates: Have each row be a different plate, with nulls in columns 9 and 10 and the standards in column 12. This way, 8 plates can be quanted at once.
 
 ## Gel Electrophoresis
@@ -375,7 +359,8 @@ When quanting samples after extraction, PCR1, and PCR2, you can always quant eve
 
 EXAMPLE:
 
-![](genetics/images/gel_example.png){fig-align="center"}
+<img src="images/gel_example.png" width="400"
+alt="Example of PCR Gels" />
 
 - Gel 1 = PCR1
   - If PCR1 worked, there should be 2 bands: 1 product band and 1 dimer band below the ladder. Nulls are labeled as "0". Primers add \~80-100bp to the original target size.
@@ -386,8 +371,8 @@ EXAMPLE:
 
 Here is a list of all the supplies we use during GT-seq library preparation with their product numbers and vendor.
 
-| **Product** | **Vendor** | **Product \#** |
-|-----------------------------------------------------------------------------------------------------------------------------------|::|::|
+| **Product** | **Vendor** | **Product #** |
+|:---|:---:|:---:|
 | Half-skirt PCR Plates, 96-Well | VWR | 83007-374 |
 | Aluminum Foil Seals for PCR (96-Well Plates) | VWR | 60941-126 |
 | 96-Well Deep Well Microplates | VWR | 75870-792 |
@@ -398,12 +383,10 @@ Here is a list of all the supplies we use during GT-seq library preparation with
 | 1.7ul Microcentrifuge Tubes | VWR | 87003-294 |
 | Axygen® PCR Tube Strips + Dome Cap Strips (8 Count) | VWR | 12000-206 |
 | Mag-Bind® Blood & Tissue DNA HDQ 96 Kit | Omega | M6399-00S |
-| 50g Chelex 100 Chelating Resin | BrioRad | 1421253 |
+| 50g Chelex 100 Chelating Resin | Bio-Rad | 1421253 |
 | 100mg Proteinase K | VWR | PAV3021 |
 | QIAGEN Multiplex PCR *Plus* Kit | Qiagen | 206152 |
 | Mag-Bind® TotalPure NGS | Omega | M1378-01 |
 | AccuBlue® High-sensitivity dsDNA quantification assay | VWR | 89139-008 |
-| Qubit™ dsDNA Quantification Assay Kits, HS | Fisher Science | Q32854 |
+| Qubit™ dsDNA Quantification Assay Kits, HS | Fisher Scientific | Q32854 |
 | HS NGS Fragment Kit (1-6000bp) | Agilent | DNF-474-0500 |
-
-\
