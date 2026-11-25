@@ -3,4 +3,4 @@
 ## Genetics
 - [Non-Lethal Sampling](genetics/nonlethal_sampling.md)
 - [Tissue Sampling](genetics/tissue_sampling.md)
-- [GT-seq Library Preparation](genetics/gtseq_library_preparation.md)
+- [GT-seq Library Preparation](genetics/gtseq_library_preparation.qmd)
